@@ -1,0 +1,27 @@
+{
+  "name": "hw",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start":"tsc && node ./dist/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/desng5/wk8_d3_assignment.git"
+  },
+  "author": "Desiree Nguyen",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/desng5/wk8_d3_assignment/issues"
+  },
+  "homepage": "https://github.com/desng5/wk8_d3_assignment#readme",
+  "devDependencies": {
+    "typescript": "^5.1.3"
+  },
+  "dependencies": {
+    "@types/uuid": "^9.0.2",
+    "uuid": "^9.0.0"
+  }
+}
